@@ -1,0 +1,131 @@
+*{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin:0;
+    padding:0;
+}
+
+#navbar{
+    background-color: red;
+    padding: 13px 14px;
+    font-family: Lacquer;
+}
+#navbar ul{
+    display:flex;
+    color: white;
+}
+#logo{
+    display:flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#navbar li{
+    list-style: none;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 7px 41px;
+    color: while;
+    font-size: 31px;
+}
+#navbar li a:hover{
+    color: black;
+}
+
+.container{
+    margin:12px auto;
+    background-color: yellow;
+    max-width: 70%;
+    background: url('.bg.jpg') center center no-repeat cover;
+    
+}
+h2{
+    text-align: center;
+    color: black;
+}
+input,textarea{
+    display: block;
+    padding: 3px;
+    margin: 15px auto;
+    width : 60%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.bgImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(22, 21, 21);
+    margin: 0px auto;
+}
+.bgImg img{
+    width: 80%;
+    margin: 0px auto;
+}
+.title{
+    position: absolute;
+    bottom: 200px;
+    left: 250px;
+    right: 150px;
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 500px;
+    color: rgb(245, 239, 243);
+    
+}
+
+.quote{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    bottom: 100px;
+    right: 500px;
+    left: 430px;
+    color:rgb(246, 236, 243);
+}
+.btn-2{
+    background-color: red;
+    border: 2px solid black;
+    color: white;
+    position: absolute;
+    top: 650px;
+    padding: 10px 20px;
+    border-radius: 9px;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+}
+body::before{
+    content: "";
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    background: url('/static/bg.jpg') center center no-repeat;
+    height: 900px;
+    z-index: -1;
+    opacity: 0.5;
+}
+.btn{
+    margin: 4px auto;
+    display: block;
+    padding : 5px 12px;
+    background: grey;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+}
